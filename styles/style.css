@@ -4,3 +4,6 @@
 #imagegallery li{
     display: inline;
 }
+abbr{
+    text-decoration: none;
+}
