@@ -3,14 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Explaning the Document ObjectModel</title>
+    <link rel="stylesheet" media="screen" href="styles/style.css">
+    <script>
+        window.onload = function () {
+            let para = document.getElementById("fea");
+            para.style.color = 'red';
+        }
+    </script>
+
 </head>
 <body>
 <h1>What is ths Document Object Model</h1>
-<p>The <abbr title="Worde Wide Web">W3C</abbr> defins ths <abbr title="Document Object Model">DOM</abbr> as:</p>
+<p >The <abbr title="Worde Wide Web">W3C</abbr> defins ths <abbr title="Document Object Model">DOM</abbr> as:</p>
 <blockquote cite="http://www.w3.org/DOM/">
     <p> A platform and language interface that will allow programs and scripts to dynamically access and update the content,stgructued and style of documents.</p>
 </blockquote>
-<p>It is an <abbr title="Application Programming Interface">API</abbr> that can be used to navigate <abbr title="HyperText Markup Launage">HTML</abbr> and
+<p id="fea">It is an <abbr title="Application Programming Interface">API</abbr> that can be used to navigate <abbr title="HyperText Markup Launage">HTML</abbr> and
 <abbr title="Extensible Markup Launage">XML</abbr>documents.</p>
 <script src="scripts/addLoadEvent.js"></script>
 <script src="scripts/displayAbbreviations.js"></script>
